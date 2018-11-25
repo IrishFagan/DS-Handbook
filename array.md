@@ -28,9 +28,9 @@ An array supports the following operations:
   
 # Use Cases
 
-An array is useful \[when\] \[why\].
+An array is useful when simply needing to place a large amount of variables of the same data type into a structure. We can then retrieve these values with constant time(O(1)), which is more efficient than most other data structures.
 
-It is not as good as \[what] \[why].
+It is not as good as a queue when it comes to managing places in a queue. A queue's operations are much more efficient than an array would be.
 
 # Example
 
