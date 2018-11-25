@@ -10,6 +10,7 @@ employer care?).
 ## The List
 
 * [Array](array.md)
+* [Stack](stack.md)
 * List, Linked List
 * Set
 * Tuple
