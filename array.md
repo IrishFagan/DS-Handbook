@@ -1,6 +1,6 @@
 # Array
 
-An array is simply an ordered data structure
+An array is a simple data structure that is unordered.
 
 # In Memory
 
