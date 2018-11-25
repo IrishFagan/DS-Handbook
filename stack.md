@@ -1,28 +1,33 @@
-# Array
+# Stack
 
-An array is \[describe in very simple terms\].
+A stack is a data structure that is not ordered but only has one end that can be modified. Items can neither be added to the bottom or middle of the structure. The way this structure behaves is called LIFO(Last In, First Out).
 
 # In Memory
 
-In memory, an array looks like this:
+In memory, a stack looks like this:
 
-![Image of Array in Memory](images/array_memory.png)
+![Image of Stack in Memory](images/stack_memory.png)
 
 \[description of diagram\]
 
 # Operations
 
-An array supports the following operations:
+A stack supports the following operations:
 
-* **retrieval/access/read**: obtain a value stored in the structure at a specific indexed position in the array.
-  * O(1), constant time. An array variable really just records the base address of the array, so we know the exact memory address of the beginning of the array. We also know the data type of the elements in the array, and therefore the size of each element. Given the index of an element we wish to read, we can calculate the address of that element in *one step*: base address + sizeof(datatype) * index. Since we can calculate this in one step for all values in the array, this is an O(1) constant time operation.
-* name: description, Big O efficiency, and explain why / what that means
+* **push**: Places an item at the top of the stack.
+  * O(1), constant time. Because of the stack pointer keeping track of the top of the stack, all that needs to be done is increment and then add an item to the top. This is why this operation is simply O(1).
+
+* **pop**: Returns the item at the top of the stack.
+  * O(1), constant time. This operation is constant thanks to the stack pointer being based at the top of the stack. The only work the pop operation must do is simply return the value stored at the stack pointer. We don't need to peek inside to return it, which is why it isn't O(n).
+
+* **peek**: Returns the item at the top of the stack without removing it or cahanging the stack pointer.
+  * O(n), linear time. Regardless of whether the stack pointer knows to point to the top of the stack in order to return the top item, this operation is still going to be O(n). This is because we must still access the address in which the information is stored, instead of simply knowing what to return or where to store an item.
 
 # Use Cases
 
-An array is useful \[when\] \[why\].
+A stack is useful when needing to backtrack or see history in a program. Each operation done in a program can be simply pushed onto the stack and then be accessed by popping it off of the stack.
 
-It is not as good as \[what] \[why].
+It is not as good as storing hundreds of values that might need to be accessed at any time. We can only access the top value, which means if our desired value was at the bottom we would have to pop everything else off to access just a single value.
 
 # Example
 
