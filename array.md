@@ -34,6 +34,25 @@ It is not as good as a queue when it comes to managing places in a queue. A queu
 
 # Example
 
+* **creation**:
+
+ArrayExample()
+
+* **retrieve/access/read**:
+
+
+* **search**:
+
+search(x)
+
+* **insert**:
+
+insert(place,x)
+
+* **delete**:
+
+remove(x)
+
 ```
 sample code showing creation, and exercising all of the operations
 or
