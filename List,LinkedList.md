@@ -22,11 +22,31 @@ Description
 
 A List supports the following operations:
 
+* **Access**: Returns a value in a provided index.
+  * O(1), constant time.
 
+* **Search**: A boolean value is returned depending on if the provided value was found or not.
+  * O(n), linear time.
+
+* **Insertion**: A provided value is insterted into a provided index in the list.
+  * O(n), linear time.
+
+* **Deletion**: A provided value is deleted from the list.
+  * O(n), linear time.
 
 A Linked List supports the following operations:
 
+* **Access**:
+  * O(n), linear time.
 
+* **Search**:
+  * O(n), linear time.
+
+* **Insertion**:
+  * O(1), constant time.
+
+* **Deletion**:
+  * O(1), constant time.
 
 # Use Cases
 
