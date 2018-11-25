@@ -11,7 +11,7 @@ employer care?).
 
 * [Array](array.md)
 * [Stack](stack.md)
-* [List, Linked List](list,linkedlist.md)
+* [List, Linked List](List,LinkedList.md)
 * Set
 * Tuple
 * Dictionary
