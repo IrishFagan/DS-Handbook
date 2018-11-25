@@ -8,7 +8,7 @@ In memory, an array looks like this:
 
 ![Image of Array in Memory](images/array_memory.png)
 
-\[description of diagram\]
+Here you can see that an array has a base address, values that can be stored and an places that are prepared to take in values.
 
 # Operations
 
