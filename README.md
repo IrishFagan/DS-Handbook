@@ -1,6 +1,6 @@
 # My Data Structures Handbook
 
-by YOUR NAME
+by Michael Fagan
 
 This is a summary of the data structures I have mastered. (More explanation here.
 Why is this important? What does this prove to potential employers? How does this
@@ -11,7 +11,7 @@ employer care?).
 
 * [Array](array.md)
 * [Stack](stack.md)
-* List, Linked List
+* [List, Linked List](list,linkedlist.md)
 * Set
 * Tuple
 * Dictionary
