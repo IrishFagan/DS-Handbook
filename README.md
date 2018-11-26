@@ -12,7 +12,7 @@ employer care?).
 * [Array](array.md)
 * [Stack](stack.md)
 * [List, Linked List](list,linkedlist.md)
-* Set
+* [Set](set.md)
 * Tuple
 * Dictionary
 * TODO (more structures listed here)
