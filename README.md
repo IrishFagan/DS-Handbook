@@ -2,19 +2,21 @@
 
 by Michael Fagan
 
-This is a summary of the data structures I have mastered. (More explanation here.
-Why is this important? What does this prove to potential employers? How does this
-differentiate you from someone who does not know data structures? Why should an
-employer care?).
+This is a summary of the data structures I have mastered. created this handbook to
+display that not only can I implement many data structures, but that I also understand 
+these structures and why you should use certain structures in certain situations.
 
 ## The List
 
 * [Array](array.md)
 * [Stack](stack.md)
 * [List, Linked List](list,linkedlist.md)
+* Doubly Linked List
 * [Set](set.md)
 * Tuple
 * Dictionary
-* TODO (more structures listed here)
+* Binary Search Tree
+* AVL Tree
+* Hash Table
 
-(c) YOUR NAME. All rights reserved.
+(c) Michael Fagan. All rights reserved.
