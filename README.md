@@ -14,7 +14,7 @@ these structures and why you should use certain structures in certain situations
 * Doubly Linked List
 * [Set](set.md)
 * Tuple
-* Dictionary
+* [Dictionary](dictionary.md)
 * Binary Search Tree
 * AVL Tree
 * Hash Table
