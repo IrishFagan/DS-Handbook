@@ -17,6 +17,6 @@ these structures and why you should use certain structures in certain situations
 * [Dictionary](dictionary.md)
 * [Binary Search Tree](bst.md)
 * AVL Tree
-* Hash Table
+* [Hash Table](hashtable.md)
 
 (c) Michael Fagan. All rights reserved.
