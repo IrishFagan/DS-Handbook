@@ -13,7 +13,7 @@ these structures and why you should use certain structures in certain situations
 * [List, Linked List](list,linkedlist.md)
 * Doubly Linked List
 * [Set](set.md)
-* Tuple
+* [Tuple](tuple.md)
 * [Dictionary](dictionary.md)
 * Binary Search Tree
 * AVL Tree
