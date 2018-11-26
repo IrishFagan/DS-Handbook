@@ -14,13 +14,13 @@ Description
 
 A Hash Table supports the following operations:
 
-* **Search**: Allows us to search through the set and see if the provided value is present.
+* **Search**: 
   * O(n), linear time.
 
-* **Insertion**: Allows us to add an item to the set, as long as the item being inserted is not a duplicate.
+* **Insertion**: 
   * O(n), linear time.
 
-* **Deletion**: Simply removes an item from the set.
+* **Deletion**: 
   * O(n), linear time.
 
 # Use Cases
