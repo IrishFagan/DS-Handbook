@@ -36,10 +36,11 @@ It is not as good as a queue when it comes to managing places in a queue. A queu
 
 * **creation**:
 
-ArrayExample()
+Array()
 
 * **retrieve/access/read**:
 
+?
 
 * **search**:
 
