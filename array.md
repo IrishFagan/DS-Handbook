@@ -53,10 +53,4 @@ insert(place,x)
 
 remove(x)
 
-```
-sample code showing creation, and exercising all of the operations
-or
-a program that doesn't use the structure, and then a version that does
-```
-
-(c) 2018 YOUR NAME. All rights reserved.
+(c) 2018 Michael Fagan. All rights reserved.
