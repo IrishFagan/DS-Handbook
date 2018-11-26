@@ -31,10 +31,20 @@ It is not as good as storing hundreds of values that might need to be accessed a
 
 # Example
 
-```
-sample code showing creation, and exercising all of the operations
-or
-a program that doesn't use the structure, and then a version that does
-```
+* **creation**:
 
-(c) 2018 YOUR NAME. All rights reserved.
+Stack()
+
+* **push**:
+
+push(x)
+
+* **pop**:
+
+pop()
+
+* **peek**:
+
+peek()
+
+(c) 2018 Michael Fagan. All rights reserved.
