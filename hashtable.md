@@ -6,7 +6,7 @@ A hash table is a structure that uses a hash function to convert a key into a va
 
 In memory, a hash table looks like this:
 
-![Image of Set in Memory](images/hashtable_memory.png)
+![Image of Hash Table in Memory](images/hashtable_memory.png)
 
 Description
 
