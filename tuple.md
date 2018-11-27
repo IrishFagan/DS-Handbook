@@ -27,3 +27,21 @@ A tuple is useful when multiple operations might need to access a piece of data 
 A tuple is not as good as any mutable structure when needing to modify values on the fly.
 
 # Examples
+
+* **creation**:
+
+~~~
+myTuple = (2,"cat",34)
+~~~
+
+* **access**:
+
+~~~
+
+~~~
+
+* **search**:
+
+~~~
+34 in myTuple
+~~~
