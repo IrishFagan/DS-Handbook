@@ -33,3 +33,33 @@ A set is useful when you would like to combine two structures and get rid of the
 A set is not as good as an array or list since a set is completely unordered and will automatically get rid of duplicate items, that might need to be stored for later.
 
 # Examples
+
+* **creation**:
+
+~~~
+mySet = {3,"dog",340000}
+~~~
+
+* **access**:
+
+~~~
+
+~~~
+
+* **search**:
+
+~~~
+5 in mySet
+~~~
+
+* **insert**:
+
+~~~
+mySet.add("froggg")
+~~~
+
+* **delete**:
+
+~~~
+mySet.remove(5)
+~~~
