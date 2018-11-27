@@ -6,7 +6,7 @@
 
 In memory, a linked list looks like this:
 
-![Image of Linked List in Memory](images/linkedlist_memory.png)
+![Image of Linked List in Memory](images/linkedlist_memory.jpg)
 
 Description
 
