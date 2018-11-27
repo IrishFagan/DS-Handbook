@@ -43,25 +43,25 @@ Array()
 * **retrieve/access/read**:
 
 ~~~
-print(x)
+print(item)
 ~~~
 
 * **search**:
 
 ~~~
-search(x)
+search(item)
 ~~~
 
 * **insert**:
 
 ~~~
-insert(place,x)
+insert(place,item)
 ~~~
 
 * **delete**:
 
 ~~~
-remove(x)
+remove(item)
 ~~~
 
 (c) 2018 Michael Fagan. All rights reserved.
