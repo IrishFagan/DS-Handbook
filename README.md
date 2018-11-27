@@ -17,5 +17,9 @@ these structures and why you should use certain structures in certain situations
 * [Binary Search Tree](bst.md)
 * AVL Tree
 * [Hash Table](hashtable.md)
+* Graph
+* Binary Heap
+* Queue
+* Deque
 
 (c) Michael Fagan. All rights reserved.
