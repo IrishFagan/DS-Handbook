@@ -43,7 +43,7 @@ Array()
 * **retrieve/access/read**:
 
 ~~~
-?
+print(x)
 ~~~
 
 * **search**:
