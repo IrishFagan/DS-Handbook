@@ -19,7 +19,7 @@ these structures and why you should use certain structures in certain situations
 * [Hash Table](hashtable.md)
 * Graph
 * Binary Heap
-* Queue
+* [Queue](queue.md)
 * [Deque](deque.md)
 
 (c) Michael Fagan. All rights reserved.
