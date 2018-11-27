@@ -37,7 +37,7 @@ Stack()
 
 * **push**:
 
-push(x)
+push(item)
 
 * **pop**:
 
