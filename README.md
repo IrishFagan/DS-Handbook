@@ -10,8 +10,7 @@ these structures and why you should use certain structures in certain situations
 
 * [Array](array.md)
 * [Stack](stack.md)
-* [List, Linked List](list,linkedlist.md)
-* Doubly Linked List
+* [Linked List](linkedlist.md)
 * [Set](set.md)
 * [Tuple](tuple.md)
 * [Dictionary](dictionary.md)
