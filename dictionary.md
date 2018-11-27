@@ -6,7 +6,7 @@ A dictionary is a structure that is not structured and uses keys to access value
 
 In memory, a dictionary looks like this:
 
-![Image of Dictionary in Memory](images/dictionary_memory.png)
+![Image of Dictionary in Memory](images/dictionary_memory.jpg)
 
 Description
 
