@@ -33,18 +33,26 @@ It is not as good as storing hundreds of values that might need to be accessed a
 
 * **creation**:
 
+~~~
 Stack()
+~~~
 
 * **push**:
 
+~~~
 push(item)
+~~~
 
 * **pop**:
 
+~~~
 pop()
+~~~
 
 * **peek**:
 
+~~~
 peek()
+~~~
 
 (c) 2018 Michael Fagan. All rights reserved.
