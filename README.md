@@ -20,6 +20,6 @@ these structures and why you should use certain structures in certain situations
 * Graph
 * Binary Heap
 * Queue
-* Deque
+* [Deque](deque.md)
 
 (c) Michael Fagan. All rights reserved.
