@@ -8,7 +8,7 @@ In memory, a stack looks like this:
 
 ![Image of Stack in Memory](images/stack_memory.jpg)
 
-\[description of diagram\]
+Here we can see the application of a LIFO(Last In, First Out) structure.
 
 # Operations
 
