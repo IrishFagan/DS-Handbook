@@ -6,7 +6,7 @@ A stack is a data structure that is not ordered but only has one end that can be
 
 In memory, a stack looks like this:
 
-![Image of Stack in Memory](images/stack_memory.png)
+![Image of Stack in Memory](images/stack_memory.jpg)
 
 \[description of diagram\]
 
