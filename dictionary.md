@@ -8,8 +8,6 @@ In memory, a dictionary looks like this:
 
 ![Image of Dictionary in Memory](images/dictionary_memory.jpg)
 
-Description
-
 # Operations
 
 A Dictionary supports the following operations:
@@ -32,3 +30,33 @@ A dictionary is useful for finding specified values, since the search operation 
 
 A dictionary is not as good as a list or any other structured data structure when needing to iterate over, since a dictionary simply has no structure and cannot be iterated over.
 # Examples
+
+* **creation**:
+
+~~~
+myDictionary = {'Billy':5411231234,'Dog':'Bark'}
+~~~
+
+* **get**:
+
+~~~
+myDictionary.get(Billy)
+~~~
+
+* **search**:
+
+~~~
+myDictionary[Dog]
+~~~
+
+* **insert**:
+
+~~~
+myDictionary['Cool'] = 'Dogs'
+~~~
+
+* **delete**:
+
+~~~
+del myDictionary[Cool]
+~~~
