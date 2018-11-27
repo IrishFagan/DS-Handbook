@@ -6,7 +6,7 @@ A queue is similar to a deque, but only allows for the queueing of values at the
 
 In memory, a queue looks like this:
 
-![Image of Queue in Memory](images/queue_memory.png)
+![Image of Queue in Memory](images/queue_memory.jpg)
 
 Description
 
