@@ -36,22 +36,32 @@ It is not as good as a queue when it comes to managing places in a queue. A queu
 
 * **creation**:
 
+~~~
 Array()
+~~~
 
 * **retrieve/access/read**:
 
+~~~
 ?
+~~~
 
 * **search**:
 
+~~~
 search(x)
+~~~
 
 * **insert**:
 
+~~~
 insert(place,x)
+~~~
 
 * **delete**:
 
+~~~
 remove(x)
+~~~
 
 (c) 2018 Michael Fagan. All rights reserved.
