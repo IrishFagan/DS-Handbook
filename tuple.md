@@ -6,7 +6,7 @@ A Tuple is a structure that can store many different types of data, but is immut
 
 In memory, a Tuple looks like this:
 
-![Image of Tuple in Memory](images/tuple_memory.png)
+![Image of Tuple in Memory](images/tuple_memory.jpg)
 
 Description
 

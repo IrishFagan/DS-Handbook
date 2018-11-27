@@ -6,7 +6,7 @@ A deque is basically a queue that can have values inserted or removed from both 
 
 In memory, a deque looks like this:
 
-![Image of Deque in Memory](images/set_memory.png)
+![Image of Deque in Memory](images/set_memory.jpg)
 
 Description
 

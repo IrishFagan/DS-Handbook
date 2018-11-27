@@ -6,7 +6,7 @@ A Binary Search Tree is a structure that allows for quick and easy traversal, re
 
 In memory, a Binary Search Tree looks like this:
 
-![Image of Binary Search Tree in Memory](images/bst_memory.png)
+![Image of Binary Search Tree in Memory](images/bst_memory.jpg)
 
 Description
 
