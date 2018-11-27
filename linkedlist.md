@@ -8,7 +8,7 @@ In memory, a linked list looks like this:
 
 ![Image of Linked List in Memory](images/linkedlist_memory.jpg)
 
-Description
+Here are how both a Singly Linked List and a Doubly Linked List are displayed in memory.
 
 # Operations
 
