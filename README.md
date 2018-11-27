@@ -15,7 +15,7 @@ these structures and why you should use certain structures in certain situations
 * [Tuple](tuple.md)
 * [Dictionary](dictionary.md)
 * [Binary Search Tree](bst.md)
-* AVL Tree
+* [AVL Tree](avltree.md)
 * [Hash Table](hashtable.md)
 * Graph
 * Binary Heap
