@@ -36,27 +36,32 @@ It is not as good as a queue when it comes to managing places in a queue. A queu
 
 * **creation**:
 
-ArrayExample()
+~~~
+Array()
+~~~
 
 * **retrieve/access/read**:
 
+~~~
+print(x)
+~~~
 
 * **search**:
 
+~~~
 search(x)
+~~~
 
 * **insert**:
 
+~~~
 insert(place,x)
+~~~
 
 * **delete**:
 
+~~~
 remove(x)
+~~~
 
-```
-sample code showing creation, and exercising all of the operations
-or
-a program that doesn't use the structure, and then a version that does
-```
-
-(c) 2018 YOUR NAME. All rights reserved.
+(c) 2018 Michael Fagan. All rights reserved.
