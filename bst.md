@@ -62,3 +62,8 @@ bst[41] = "dog"
 bst.remove(41)
 ~~~
 
+[PREV PAGE](dictionary.md)
+
+[NEXT PAGE](avltree.md)
+
+(c) 2018 Michael Fagan. All rights reserved.
