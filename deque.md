@@ -8,8 +8,6 @@ In memory, a deque looks like this:
 
 ![Image of Deque in Memory](images/deque_memory.jpg)
 
-Description
-
 # Operations
 
 A Deque supports the following operations:
@@ -39,6 +37,44 @@ A deque is useful when managing a queue that could cause a bottleneck. Implement
 A deque is not as good as a list if you were needing constant access to thousands of values.
 
 # Examples
+
+* **creation**:
+
+~~~
+d = Deque()
+~~~
+
+* **access**:
+
+~~~
+
+~~~
+
+* **search**:
+
+~~~
+
+~~~
+
+* **insert**:
+
+~~~
+d.addRear(30)
+~~~
+
+~~~
+d.addFront(84420)
+~~~
+
+* **delete**:
+
+~~~
+d.removeRear()
+~~~
+
+~~~
+d.removeFront()
+~~~
 
 [PREV PAGE](queue.md)
 
