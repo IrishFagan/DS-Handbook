@@ -64,6 +64,6 @@ insert(place,item)
 remove(item)
 ~~~
 
-* [NEXT PAGE](stack.md)
+[NEXT PAGE](stack.md)
 
 (c) 2018 Michael Fagan. All rights reserved.
