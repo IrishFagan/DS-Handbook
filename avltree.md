@@ -33,3 +33,9 @@ An AVL Tree is useful when you would like to store values in a tree without havi
 An AVL Tree is not as good as a stack or queue when it comes to inserting or deleting items. Regardless of how efficient both O(1) and O(log(n)) are, insertion and deletion from a stack and queue are both best at O(1).
 
 # Examples
+
+[PREV PAGE](bst.md)
+
+[NEXT PAGE](hashtable.md)
+
+(c) 2018 Michael Fagan. All rights reserved.
