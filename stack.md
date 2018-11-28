@@ -55,4 +55,8 @@ pop()
 peek()
 ~~~
 
+[PREV PAGE](array.md)
+
+[NEXT PAGE](linkedlist.md)
+
 (c) 2018 Michael Fagan. All rights reserved.
