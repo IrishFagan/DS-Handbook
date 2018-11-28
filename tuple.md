@@ -8,17 +8,15 @@ In memory, a Tuple looks like this:
 
 ![Image of Tuple in Memory](images/tuple_memory.jpg)
 
-Description
-
 # Operations
 
 A Tuple supports the following operations:
 
-* **Access**: ?
-  * O(?), ? time.
+* **Access**: Allows for access of all values by a provided index.
+  * O(n), linear time. 
 
 * **Search**: Allows us to search through the tuple and see if the provided value is present.
-  * O(?), ? time.
+  * O(n), linear time.
 
 # Use Cases
 
@@ -37,7 +35,7 @@ myTuple = (2,"cat",34)
 * **access**:
 
 ~~~
-
+print(myTuple[0])
 ~~~
 
 * **search**:
