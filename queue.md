@@ -36,6 +36,6 @@ A queue would not be as good as a list, since accessing values is not as efficie
 
 [PREV PAGE]()
 
-[NEXT PAGE(queue.md)
+[NEXT PAGE](queue.md)
 
 (c) 2018 Michael Fagan. All rights reserved.
