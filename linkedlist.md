@@ -64,3 +64,9 @@ list.add(item)
 ~~~
 list.remove(item)
 ~~~
+
+[PREV PAGE](stack.md)
+
+[NEXT PAGE](set.md)
+
+(c) 2018 Michael Fagan. All rights reserved.
