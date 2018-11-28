@@ -12,8 +12,8 @@ In memory, a Binary Search Tree looks like this:
 
 A Binary Search Tree supports the following operations:
 
-* **Access**:
-  * O(?), ? time.
+* **Access**: Uses a provided key to search for its relative node.
+  * O(n), linear time.
 
 * **Search**: A binary search tree can traverse through the tree checking the nodes for a provided key and value pair.
   * O(n), linear time. Uses the idea of divide and conquer to check the children of the present node to then traverse left or right depending on the value of what we are searching for. Because of this simplified version of traversal, a search operation in the worst case is only O(n).
