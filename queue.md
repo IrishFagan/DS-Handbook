@@ -34,6 +34,36 @@ A queue would not be as good as a list, since accessing values is not as efficie
 
 # Examples
 
+* **creation**:
+
+~~~
+myQ = Queue()
+~~~
+
+* **access**:
+
+~~~
+
+~~~
+
+* **search**:
+
+~~~
+
+~~~
+
+* **insert**:
+
+~~~
+q.enqueue(80000)
+~~~
+
+* **delete**:
+
+~~~
+q.dequeue
+~~~
+
 [PREV PAGE]()
 
 [NEXT PAGE](queue.md)
