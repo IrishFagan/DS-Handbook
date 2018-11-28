@@ -30,3 +30,34 @@ A hash table is useful when
 A hash table is as good as
 
 # Examples
+
+* **creation**:
+
+~~~
+HT = HashTable()
+~~~
+
+* **access**:
+
+~~~
+
+~~~
+
+* **search**:
+
+~~~
+
+~~~
+
+* **insert**:
+
+~~~
+
+~~~
+
+* **delete**:
+
+~~~
+
+~~~
+
