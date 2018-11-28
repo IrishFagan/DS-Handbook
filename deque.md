@@ -39,3 +39,7 @@ A deque is useful when managing a queue that could cause a bottleneck. Implement
 A deque is not as good as a list if you were needing constant access to thousands of values.
 
 # Examples
+
+[PREV PAGE](queue.md)
+
+(c) 2018 Michael Fagan. All rights reserved.
