@@ -8,11 +8,12 @@ In memory, a Binary Search Tree looks like this:
 
 ![Image of Binary Search Tree in Memory](images/bst_memory.jpg)
 
-Description
-
 # Operations
 
 A Binary Search Tree supports the following operations:
+
+* **Access**:
+  * O(?), ? time.
 
 * **Search**: A binary search tree can traverse through the tree checking the nodes for a provided key and value pair.
   * O(n), linear time. Uses the idea of divide and conquer to check the children of the present node to then traverse left or right depending on the value of what we are searching for. Because of this simplified version of traversal, a search operation in the worst case is only O(n).
@@ -30,3 +31,34 @@ A binary search tree is useful when needing to access user data such as phone nu
 A binary search tree is not as good as a linked list if dealing with thousands of values that are consantly needing to be inserted and removed.
 
 # Examples
+
+* **creation**:
+
+~~~
+bst = BinarySearchTree()
+~~~
+
+* **access**::
+
+~~~
+print(bst[2])
+~~~
+
+* **search**:
+
+~~~
+"dog" in bst
+~~~
+
+* **insert**:
+
+~~~
+bst[41] = "dog"
+~~~
+
+* **delete**:
+
+~~~
+bst.remove(41)
+~~~
+
