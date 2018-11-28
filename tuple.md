@@ -45,3 +45,9 @@ myTuple = (2,"cat",34)
 ~~~
 34 in myTuple
 ~~~
+
+[PREV PAGE](set.md)
+
+[NEXT PAGE](dictionary.md)
+
+(c) 2018 Michael Fagan. All rights reserved.
