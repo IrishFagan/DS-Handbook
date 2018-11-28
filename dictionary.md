@@ -1,4 +1,4 @@
-# Set
+# Dictionary
 
 A dictionary is a structure that is not structured and uses keys to access values, as opposed to most other structures that are structured and allow for indexing.
 
@@ -60,3 +60,9 @@ myDictionary['Cool'] = 'Dogs'
 ~~~
 del myDictionary[Cool]
 ~~~
+
+[PREV PAGE](tuple.md)
+
+[NEXT PAGE](bst.md)
+
+(c) 2018 Michael Fagan. All rights reserved.
