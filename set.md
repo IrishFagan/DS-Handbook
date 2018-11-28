@@ -63,3 +63,9 @@ mySet.add("froggg")
 ~~~
 mySet.remove(5)
 ~~~
+
+[PREV PAGE](linkedlist.md)
+
+[NEXT PAGE](tuple.md)
+
+(c) 2018 Michael Fagan. All rights reserved.
