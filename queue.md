@@ -33,3 +33,9 @@ A queue is useful when you need to regulate information being distributed. Queue
 A queue would not be as good as a list, since accessing values is not as efficient.
 
 # Examples
+
+[PREV PAGE]()
+
+[NEXT PAGE(queue.md)
+
+(c) 2018 Michael Fagan. All rights reserved.
