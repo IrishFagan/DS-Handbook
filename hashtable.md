@@ -25,7 +25,7 @@ A Hash Table supports the following operations:
 
 # Use Cases
 
-A hash table is useful when
+A hash table is useful when storing passwords
 
 A hash table is as good as
 
@@ -40,24 +40,24 @@ HT = HashTable()
 * **access**:
 
 ~~~
-
+print(HT[30])
 ~~~
 
 * **search**:
 
 ~~~
-
+HT.get(dog)
 ~~~
 
 * **insert**:
 
 ~~~
-
+HT[7] = "cat"
 ~~~
 
 * **delete**:
 
 ~~~
-
+del HT[7]
 ~~~
 
