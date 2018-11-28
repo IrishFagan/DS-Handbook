@@ -8,8 +8,6 @@ In memory, a queue looks like this:
 
 ![Image of Queue in Memory](images/queue_memory.jpg)
 
-Description
-
 # Operations
 
 A Queue supports the following operations:
@@ -55,13 +53,13 @@ myQ = Queue()
 * **insert**:
 
 ~~~
-q.enqueue(80000)
+myQ.enqueue(80000)
 ~~~
 
 * **delete**:
 
 ~~~
-q.dequeue
+myQ.dequeue
 ~~~
 
 [PREV PAGE]()
