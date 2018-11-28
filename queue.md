@@ -64,6 +64,6 @@ myQ.dequeue
 
 [PREV PAGE]()
 
-[NEXT PAGE](queue.md)
+[NEXT PAGE](deque.md)
 
 (c) 2018 Michael Fagan. All rights reserved.
