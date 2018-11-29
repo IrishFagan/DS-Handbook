@@ -61,3 +61,8 @@ HT[7] = "cat"
 del HT[7]
 ~~~
 
+[PREV PAGE](avltree.md)
+
+[NEXT PAGE](graph.md)
+
+(c) 2018 Michael Fagan. All rights reserved.
