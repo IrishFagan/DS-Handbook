@@ -56,6 +56,6 @@ myGraph = Graph()
 
 [PREV PAGE](hashtable.md)
 
-[NEXT PAGE](deque.md)
+[NEXT PAGE](binaryheap.md)
 
 (c) 2018 Michael Fagan. All rights reserved.
