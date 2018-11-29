@@ -12,16 +12,16 @@ In memory, a deque looks like this:
 
 A Deque supports the following operations:
 
-* **Insertion(Rear)**: Used to queue an item to the rear of a deque
+* **Enqueue(Rear)**: Used to queue an item to the rear of a deque
   * O(n), linear time. To queue an item to the rear end of a deque, all values in the deque must first be shifted, which is an O(n) operation. Overall, this makes queuing into the rear an O(n) operation.
   
-* **Insertion(Front)**: Uses a stack pointer to simply queue an item on the end of the deque
+* **Enqueue(Front)**: Uses a stack pointer to simply queue an item on the end of the deque
   * O(1), constant time. Thanks to the stack pointer, we can queue items to the front of the deque with a simple O(1) operation.
 
-* **Deletion(Rear)**: Used to dequeue an item from the end of a deque
+* **Dequeue(Rear)**: Used to dequeue an item from the end of a deque
   * O(n), linear time. In order to complete a delete operation from the rear of a deque, we must first dequeue the value and then copy and shift all of the values in the deque over. This is why this operation is O(n), unlike dequeuing from the front of the deque.
 
-* **Deletion(Front)**: Used to dequeue an item from the front of a deque
+* **Dequeue(Front)**: Used to dequeue an item from the front of a deque
   * O(1), constant time. Because of a stack pointer constantly pointing to the front of the deque, this simple operation is only O(1). Items do not need to be shifted like when inserting or dequeuing an item from the rear of a deque.
 
 # Use Cases
@@ -38,7 +38,7 @@ A deque is not as good as a list if you were needing constant access to thousand
 d = Deque()
 ~~~
 
-* **insert**:
+* **enqueue**:
 
 ~~~
 d.addRear(30)
@@ -48,7 +48,7 @@ d.addRear(30)
 d.addFront(84420)
 ~~~
 
-* **delete**:
+* **dequeue**:
 
 ~~~
 d.removeRear()
