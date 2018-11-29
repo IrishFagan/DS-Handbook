@@ -12,12 +12,6 @@ In memory, a queue looks like this:
 
 A Queue supports the following operations:
 
-* **Access**: 
-  * O(n), linear time.
-
-* **Search**: Allows us to increment through the queue and determine if a provided value is present.
-  * O(n), linear time.
-
 * **Insertion**: Queues an item on the rear end of the queue.
   * O(1), constant time.
 
@@ -36,18 +30,6 @@ A queue would not be as good as a list, since accessing values is not as efficie
 
 ~~~
 myQ = Queue()
-~~~
-
-* **access**:
-
-~~~
-
-~~~
-
-* **search**:
-
-~~~
-
 ~~~
 
 * **insert**:
