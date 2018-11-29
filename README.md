@@ -18,7 +18,7 @@ these structures and why you should use certain structures in certain situations
 * [AVL Tree](avltree.md)
 * [Hash Table](hashtable.md)
 * Graph
-* Binary Heap
+* [Binary Heap](binaryheap.md)
 * [Queue](queue.md)
 * [Deque](deque.md)
 
