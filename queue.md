@@ -62,7 +62,7 @@ myQ.enqueue(80000)
 myQ.dequeue
 ~~~
 
-[PREV PAGE]()
+[PREV PAGE](binaryheap.md)
 
 [NEXT PAGE](deque.md)
 
