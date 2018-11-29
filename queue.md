@@ -12,10 +12,10 @@ In memory, a queue looks like this:
 
 A Queue supports the following operations:
 
-* **Insertion**: Queues an item on the rear end of the queue.
+* **Enqueue**: Queues an item on the rear end of the queue.
   * O(1), constant time.
 
-* **Deletion**: Dequeues an item on the front end of the queue.
+* **Dequeue**: Dequeues an item on the front end of the queue.
   * O(1), constant time.
 
 # Use Cases
@@ -32,13 +32,13 @@ A queue would not be as good as a list, since accessing values is not as efficie
 myQ = Queue()
 ~~~
 
-* **insert**:
+* **enqueue**:
 
 ~~~
 myQ.enqueue(80000)
 ~~~
 
-* **delete**:
+* **dequeue**:
 
 ~~~
 myQ.dequeue
