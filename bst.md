@@ -38,7 +38,7 @@ A binary search tree is not as good as a linked list if dealing with thousands o
 bst = BinarySearchTree()
 ~~~
 
-* **access**::
+* **access**:
 
 ~~~
 print(bst[2])
