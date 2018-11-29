@@ -12,12 +12,6 @@ In memory, a deque looks like this:
 
 A Deque supports the following operations:
 
-* **Access**: Used to access a specified value in the tree
-  * O(n), linear time.
-
-* **Search**: Used to see if there is a specified value in the deque.
-  * O(n), linear time.
-
 * **Insertion(Rear)**: Used to queue an item to the rear of a deque
   * O(n), linear time. To queue an item to the rear end of a deque, all values in the deque must first be shifted, which is an O(n) operation. Overall, this makes queuing into the rear an O(n) operation.
   
