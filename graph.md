@@ -12,16 +12,16 @@ In memory, a graph looks like this:
 
 A Graph supports the following operations:
 
-* **Insertion(Vertex)**:
+* **Insertion(Vertex)**: Inserts a vertex into the graph.
   * O(1), constant time.
 
-* **Insertion(Edge)**:
+* **Insertion(Edge)**: Inserts an edge, connecting two provided vertices.
   * O(1), constant time.
 
-* **Deletion(Vertex)**:
+* **Deletion(Vertex)**: Deletes a vertex, which in hand disconnects edges.
   * O(|E|).
   
-* **Deletion(Edge)**:
+* **Deletion(Edge)**: Deletes an edge that was connected between two vertices.
   * O(|V|).
 
 # Use Cases
