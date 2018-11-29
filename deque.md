@@ -44,18 +44,6 @@ A deque is not as good as a list if you were needing constant access to thousand
 d = Deque()
 ~~~
 
-* **access**:
-
-~~~
-
-~~~
-
-* **search**:
-
-~~~
-
-~~~
-
 * **insert**:
 
 ~~~
