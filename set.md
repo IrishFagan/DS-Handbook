@@ -41,7 +41,7 @@ mySet = {3,"dog",340000}
 * **access**:
 
 ~~~
-
+print(mySet[2])
 ~~~
 
 * **search**:
