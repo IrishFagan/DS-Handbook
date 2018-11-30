@@ -6,7 +6,7 @@ A Binary Heap is a structure that allows for many data types to be stored. This 
 
 In memory, a binary heap looks like this:
 
-![Image of Binary Heap in Memory](images/binaryheap_memory.jpg)
+![Image of Binary Heap in Memory](images/binaryheap.jpg)
 
 # Operations
 
