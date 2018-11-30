@@ -6,7 +6,7 @@ An AVL Tree is similar in structure to a Binary Search Tree in the way that it i
 
 In memory, an AVL Tree looks like this:
 
-![Image of AVL Tree in Memory](images/avltree_memory.png)
+![Image of AVL Tree in Memory](images/avltree.png)
 
 Description
 
