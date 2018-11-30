@@ -14,20 +14,20 @@ Description
 
 A Hash Table supports the following operations:
 
-* **Search**: 
+* **Search**: Uses a key value to find the hashed value.
   * O(n), linear time.
 
-* **Insertion**: 
+* **Insertion**: Stores a key and value pair that can then be looked up later on.
   * O(n), linear time.
 
-* **Deletion**: 
+* **Deletion**: Removes a key and value pair from the structure.
   * O(n), linear time.
 
 # Use Cases
 
-A hash table is useful when storing passwords
+A hash table is useful when storing passwords or phone numbers that need to be associated with a user or person.
 
-A hash table is as good as
+A hash table is not as good as a list when constantly needing to access values.
 
 # Examples
 
