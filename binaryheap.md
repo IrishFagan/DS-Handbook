@@ -12,20 +12,20 @@ In memory, a binary heap looks like this:
 
 A Binary Heap supports the following operations:
 
-* **Search**:
+* **Search**: Is used to find the smallest or largest value, depending on whether it is a min or max heap.
   * O(n), linear time. 
 
-* **Insertion**:
+* **Insertion**: Used to insert a node, which will then percolate to it's correct position, depending on the type of binary heap.
   * O(n), linear time. 
 
-* **Deletion**:
-  * O(n), linear time. 
+* **Deletion**: Used to remove a node, that then changes the structure of the tree.
+  * O(n), linear time.  
 
 # Use Cases
 
-A Binary Heap is useful when 
+A Binary Heap is useful when needing to adjust a queue based on prioritization.
 
-A Binary Heap is not as good as
+A Binary Heap is not as good as a Deque when needing to shift less important items around to multiple data structures.
 # Examples
 
 * **creation**:
