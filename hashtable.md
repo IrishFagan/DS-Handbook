@@ -8,8 +8,6 @@ In memory, a hash table looks like this:
 
 ![Image of Hash Table in Memory](images/hashtable_memory.jpg)
 
-Description
-
 # Operations
 
 A Hash Table supports the following operations:
