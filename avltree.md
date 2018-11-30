@@ -8,8 +8,6 @@ In memory, an AVL Tree looks like this:
 
 ![Image of AVL Tree in Memory](images/avltree.jpg)
 
-Description
-
 # Operations
 
 An AVL Tree supports the following operations:
