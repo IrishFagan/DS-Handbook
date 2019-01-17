@@ -2,7 +2,7 @@
 
 by Michael Fagan
 
-This is a summary of the data structures I have mastered. created this handbook to
+This is a summary of the data structures I have mastered. I created this handbook to
 display that not only can I implement many data structures, but that I also understand 
 these structures and why you should use certain structures in certain situations.
 
