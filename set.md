@@ -28,7 +28,7 @@ A Set supports the following operations:
 
 A set is useful when you would like to combine two structures and get rid of the duplicate values when joining the two structures.
 
-A set is not as good as an array or list since a set is completely unordered and will automatically get rid of duplicate items, that might need to be stored for later.
+A set isn't useful when trying to to manage duplicate numerical values, since the duplicates won't be stored.
 
 # Examples
 
