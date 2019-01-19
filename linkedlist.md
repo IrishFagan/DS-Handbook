@@ -15,10 +15,10 @@ Here are how both a Singly Linked List and a Doubly Linked List are displayed in
 A Linked List supports the following operations:
 
 * **Access**:
-  * O(n), linear time.
+  * O(n), linear time. In order to access a specific value, we must still traverse every single node until we find the value that we're attempting to access.
 
 * **Search**: Searches existing nodes for a provided value.
-  * O(n), linear time.
+  * O(n), linear time. When searching a linked list for a specific value, there isn't any way to know where this specific value is at. The worst case scenario is going to be that the desired value is the last value in the linked list, therefore the operation is O(n).
 
 * **Insertion**: Inserts a new node with a provided value.
   * O(1), constant time. Because of the way nodes store values and the addresses that they are pointing to next, insertion is fairly simple. A new node must simply be created, then point to a new node or null, and then have a previous node point to the new node. This assignment doesn't require any shifting or copying, therefore it is simply O(1).
