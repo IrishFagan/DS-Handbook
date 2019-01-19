@@ -21,7 +21,7 @@ A stack supports the following operations:
   * O(1), constant time. This operation is constant thanks to the stack pointer being based at the top of the stack. The only work the pop operation must do is simply return the value stored at the stack pointer. We don't need to peek inside to return it, which is why it isn't O(n).
 
 * **peek**: Returns the item at the top of the stack without removing it or cahanging the stack pointer.
-  * O(n), linear time. Regardless of whether the stack pointer knows to point to the top of the stack in order to return the top item, this operation is still going to be O(n). This is because we must still access the address in which the information is stored, instead of simply knowing what to return or where to store an item.
+  * O(1), constant time. This operation is constant because it always knows where the top of the stack is, which is the location of the only value that can be peeked at. It should always be a constant time to access the top value.
 
 # Use Cases
 
