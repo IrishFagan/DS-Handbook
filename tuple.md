@@ -1,6 +1,6 @@
 # Tuple
 
-A Tuple is a structure that can store many different types of data, but is immutable, meaning that it cannot be modified.
+A Tuple is a structure that is similar to a list, but is not immutable.
 
 # In Memory
 
