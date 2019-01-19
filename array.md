@@ -30,7 +30,7 @@ An array supports the following operations:
 
 An array is useful when simply needing to place a large amount of variables of the same data type into a structure. We can then retrieve these values with constant time(O(1)), which is more efficient than most other data structures.
 
-It is not as good as a queue when it comes to managing places in a queue. A queue's operations are much more efficient than an array would be.
+An array is not useful when having to manage lots of values by insertiion and deletion.
 
 # Example
 
