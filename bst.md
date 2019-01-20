@@ -22,10 +22,10 @@ A Binary Search Tree supports the following operations:
   * O(log(n)), logarithmic time. When deleting a value from the tree, we can use divide and conquer to half the possibilities by comparing the parent node to the value we are searching for and deleting. This allows for the operation to be logarithmic.
   
 # Use Cases
+ 
+A binary search tree is useful when needing to search for values relatively quickly. Divide and conquer allows for easy traversal, even with hundreds of values.
 
-A binary search tree is useful when needing to access user data such as phone numbers associated with a name.
-
-A binary search tree is not as good as a linked list if dealing with thousands of values that are consantly needing to be inserted and removed.
+A binary search tree isn't useful in some circumstances when needing to store many values. A binary search tree's search operation can eventually become O(n), much like a linked list.
 
 # Examples
 
