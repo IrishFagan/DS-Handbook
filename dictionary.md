@@ -1,6 +1,6 @@
 # Dictionary
 
-A dictionary is a structure that is not structured and uses keys to access values, as opposed to most other structures that are structured and allow for indexing.
+A dictionary is a structure that is not ordered and uses keys to access values, as opposed to most other structures that are structured and allow for indexing.
 
 # In Memory
 
