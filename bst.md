@@ -12,18 +12,15 @@ In memory, a Binary Search Tree looks like this:
 
 A Binary Search Tree supports the following operations:
 
-* **Access**: Uses a provided key to search for its relative node.
-  * O(n), linear time.
-
-* **Search**: A binary search tree can traverse through the tree checking the nodes for a provided key and value pair.
-  * O(n), linear time. Uses the idea of divide and conquer to check the children of the present node to then traverse left or right depending on the value of what we are searching for. Because of this simplified version of traversal, a search operation in the worst case is only O(n).
+* **Access/Search**: Uses a provided key to search for its relative node, and then return it.
+  * O(log(n)), logarithmic time. Because of divide and conquer and the sorted nature of a Binary Search Tree, each step we take towards searching for a provided value cuts the possibilites in half. This makes this operation logarithmic.
 
 * **Insertion**: A node with a key and value pair can be compared to each node in a tree until there is an empty place at the end of the tree.
-  * O(n), linear time. Insertion can simply be done by comparing values of nodes to the present value being inserted. This allows for quick traversal through the tree to a point where there isn't a node present and the value can be inserted.
+  * O(log(n)), logarithmic time. In order to find out where we must insert a value, we must first use divide and conquer. Much like the search operation, the possibilities after each step is cut in half. Therefore this operation is logarithmic.
 
 * **Deletion**: A node is removed in a specific way depending on it's placement inside the tree.
-  * O(n), linear time. Deletion can be a bit complicated depending on whether a node has a no children, a single child or two children. It can become even more complicated when the children of the node being removed has multiple children. When there are no children of the node being removed, then the node is simply deleted. When the node being removed has a single child then the child of the node can simply take the place of the node that was deleted. When dealing with a node that has two children, we implement the idea of choosing either an in-order successor or in-order predecessor to replace the deleted node.
-
+  * O(log(n)), logarithmic time. When deleting a value from the tree, we can use divide and conquer to half the possibilities by comparing the parent node to the value we are searching for and deleting. This allows for the operation to be logarithmic.
+  
 # Use Cases
 
 A binary search tree is useful when needing to access user data such as phone numbers associated with a name.
