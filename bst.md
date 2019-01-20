@@ -1,6 +1,6 @@
 # Binary Search Tree
 
-A Binary Search Tree is a structure that allows for quick and easy traversal, removal and addition because of its sorted nature. Items can be stored as a key and then with an accompanied value.
+A Binary Search Tree is a structure that allows for quick searching.
 
 # In Memory
 
