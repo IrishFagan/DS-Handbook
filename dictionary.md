@@ -1,6 +1,6 @@
 # Dictionary
 
-A dictionary is a structure that is not ordered and uses keys to access values, as opposed to most other structures that are structured and allow for indexing.
+A dictionary is a structure that is not ordered and uses keys to access values.
 
 # In Memory
 
@@ -28,7 +28,8 @@ A Dictionary supports the following operations:
 
 A dictionary is useful for finding specified keys, since the search operation is O(1) and most other structures are O(n).
 
-A dictionary is not as good as a list or any other structured data structure when needing to iterate over, since a dictionary simply has no structure and cannot be iterated over.
+A dictionary would not be as a good as a linked list when needing to consistently store a bunch of values. There is the possibility of a collision with the hash function.
+
 # Examples
 
 * **creation**:
