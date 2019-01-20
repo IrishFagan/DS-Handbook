@@ -13,10 +13,10 @@ In memory, a Tuple looks like this:
 A Tuple supports the following operations:
 
 * **Access**: Allows for access of all values by a provided index.
-  * O(n), linear time. 
+  * O(1), constant time. 
 
 * **Search**: Allows us to search through the tuple and see if the provided value is present.
-  * O(n), linear time.
+  * O(n), linear time. In order to find a specified value inside the tuple, we must traverse through the tuple. The worst case scenario could be that the value is the last in the tuple, therefore this operation is linear.
 
 # Use Cases
 
