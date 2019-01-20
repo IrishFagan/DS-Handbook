@@ -26,7 +26,7 @@ A Dictionary supports the following operations:
 
 # Use Cases
 
-A dictionary is useful for finding specified values, since the search operation is O(1) and most other structures are O(n).
+A dictionary is useful for finding specified keys, since the search operation is O(1) and most other structures are O(n).
 
 A dictionary is not as good as a list or any other structured data structure when needing to iterate over, since a dictionary simply has no structure and cannot be iterated over.
 # Examples
