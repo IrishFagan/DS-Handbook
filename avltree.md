@@ -1,6 +1,6 @@
 # AVL Tree
 
-An AVL Tree is similar in structure to a Binary Search Tree in the way that it is organized. It is self sorting and can only have a difference of one level between a node and it's children's subtrees.
+An AVL Tree is a tree that self balances, and therefore won't ever degrade into a linked list like a binary tree. This allows for all operations to be O(log(n)) all the time.
 
 # In Memory
 
