@@ -4,7 +4,7 @@ A set is a structure that allows for many data types to be stored, in no particu
 
 # In Memory
 
-In memory, a set looks like this:
+Conceptually, a set looks like this:
 
 ![Image of Set in Memory](images/set_memory.jpg)
 
