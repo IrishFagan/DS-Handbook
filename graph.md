@@ -1,6 +1,6 @@
 # Graph
 
-A graph is similar to a tree in that it has nodes and edges. Although, a graph does have edges with weights and can have multiple edges connecting to other vertices.
+A graph is a structure that has nodes, which are connected by edges.
 
 # In Memory
 
