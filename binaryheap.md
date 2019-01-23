@@ -23,7 +23,7 @@ A Binary Heap supports the following operations:
 
 # Use Cases
 
-A Binary Heap is useful when needing to adjust a queue based on prioritization.
+A Binary Heap is useful when needing to sort thousands of values because of the efficiency of it's sorting algorithm, Heap Sort.
 
 A Binary Heap is not as good as a Deque when needing to shift less important items around to multiple data structures.
 # Examples
