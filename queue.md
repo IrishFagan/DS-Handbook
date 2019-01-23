@@ -1,6 +1,6 @@
 # Queue
 
-A queue is a two sided structure that allows for quick enqueuing in the front and quick dequeuing from the end.
+A queue is a two sided structure that allows for quick enqueuing in the rear and quick dequeuing from the front.
 
 # In Memory
 
