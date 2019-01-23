@@ -22,7 +22,7 @@ A Deque supports the following operations:
 
 A deque is useful when managing a queue that could cause a bottleneck. Implementation of multiple deques instead could allow for the re-insertion of values into a different deque if there happened to be a bottleneck.
 
-A deque is not as good as a list if you were needing constant access to thousands of values.
+A deque is not as good as a list if you were wanting to consistently access multiple values from a structure. You can only access whichever value is dequeud from either the front or end of the deque.
 
 # Examples
 
