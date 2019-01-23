@@ -1,6 +1,6 @@
 # Dictionary/Hash Table
 
-A dictionary and hast table are structures that are not ordered and uses keys to access values.
+A dictionary and hash table are structures that are not ordered and use keys to access values.
 
 # In Memory
 
@@ -15,13 +15,13 @@ A Dictionary and Hash Table supports the following operations:
 * **Get**: Accesses the value of the associated key that was provided.
   * O(1), constant time. This is operation is constant since it simply needs to return the value associated with the key.
   
-* **Search**: Used to find whether or not a key and value pair are in the dictionary. If found will return the value associated with the key, other wise will return False.
+* **Search**: Used to find whether or not a key and value pair are in the structure. If found will return the value associated with the key, other wise will return False.
   * O(1), constant time. Since the search operation must already be given a specified key, we will know whether or not if the key and value pair are in the dictionary. We then simply need to return the value associated with the key.
 
-* **Insertion**: Can be used to add a key and value pair into the dictionary.
-  * O(1), constant time. A dictionary isn't supposed to be thought of like a list or any type of ordered list, meaning insertion doesn't require any moving around of other values. The key and value pair are simply inserted into the bag of pairs.
+* **Insertion**: Can be used to add a key and value pair into the structure.
+  * O(1), constant time. A dictionary or hash table isn't supposed to be thought of like a list or any type of ordered list, meaning insertion doesn't require any moving around of other values. The key and value pair are simply inserted into the bag of pairs.
 
-* **Deletion**: Can be used to remove a key and value pair from the dictionary.
+* **Deletion**: Can be used to remove a key and value pair from the structure.
   * O(1), constant time. Since the delete operation is provied a key, the only thing that needs to be done is remove the pair.
 
 # Use Cases
