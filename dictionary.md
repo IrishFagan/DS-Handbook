@@ -1,16 +1,16 @@
-# Dictionary
+# Dictionary/Hash Table
 
-A dictionary is a structure that is not ordered and uses keys to access values.
+A dictionary and hast table are structures that are not ordered and uses keys to access values.
 
 # In Memory
 
-As a concept, a dictionary looks like this:
+As a concept, a dictionary and hash table looks like this:
 
-![Image of Dictionary in Memory](images/dictionary_memory.jpg)
+![Image of Dictionary/Hash Table in Memory](images/dictionary_memory.jpg)
 
 # Operations
 
-A Dictionary supports the following operations:
+A Dictionary and Hash Table supports the following operations:
 
 * **Get**: Accesses the value of the associated key that was provided.
   * O(1), constant time. This is operation is constant since it simply needs to return the value associated with the key.
@@ -26,9 +26,9 @@ A Dictionary supports the following operations:
 
 # Use Cases
 
-A dictionary is useful for finding specified keys, since the search operation is O(1) and most other structures are O(n).
+A dictionary or hash table are useful for finding specified keys, since the search operation is O(1) and most other structures are O(n).
 
-A dictionary would not be as a good as a linked list when needing to consistently store a bunch of values. There is the possibility of a collision with the hash function.
+A dictionary or hash table would not be as a good as a linked list when needing to consistently store a bunch of values. There is the possibility of a collision with the hash function.
 
 # Examples
 
