@@ -1,6 +1,6 @@
 # Queue
 
-A queue is similar to a deque, but only allows for the queueing of values at the rear, and the dequeuing of values at the front. The way this data structure works is considered FIFO(First In, First Out)
+A queue is a two sided structure that allows for quick enqueuing in the front and quick dequeuing from the end.
 
 # In Memory
 
