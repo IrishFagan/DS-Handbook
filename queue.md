@@ -22,8 +22,7 @@ A Queue supports the following operations:
 
 A queue is useful when you need to regulate information being distributed. Queueing and dequeuing items allows for a quick insertion and deletion as well as O(1).
 
-A queue would not be as good as a list, since accessing values is not as efficient.
-
+A queue would not be as good as a list, since values in the middle of the structure can't be accessed. Only data that is dequeued can be accessed.
 # Examples
 
 * **creation**:
