@@ -1,6 +1,6 @@
 # Binary Heap
 
-A Binary Heap is a structure that allows for many data types to be stored. This structure also doesn't allow duplicate items.
+A Binary Heap is a structure that satisfies the heap ordering property, which prioritize values from smallest to largest (min-heap) or largest to smallest (max-heap).
 
 # In Memory
 
