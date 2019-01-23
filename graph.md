@@ -26,7 +26,7 @@ A Graph supports the following operations:
 
 # Use Cases
 
-A graph is useful when you need to have multiple sensors across a network send information to eachother.
+A graph is useful when needing to represent data visually, such as information between neighboring towns.
 
 A graph would not be as good as a hash table or dictionary when needing to store an associated value with a key.
 
