@@ -12,16 +12,16 @@ In memory, a graph looks like this:
 
 A Graph supports the following operations:
 
-* **Insertion(Vertex)**: Inserts a vertex into the graph.
+* **Adding(Vertex)**: Adds a vertex into the graph.
   * O(1), constant time.
 
-* **Insertion(Edge)**: Inserts an edge, connecting two provided vertices.
+* **Adding(Edge)**: Adds an edge, connecting two provided vertices.
   * O(1), constant time.
 
-* **Deletion(Vertex)**: Deletes a vertex, which in hand disconnects edges.
+* **Removal(Vertex)**: Deletes a vertex, which in hand disconnects edges.
   * O(|E|).
   
-* **Deletion(Edge)**: Deletes an edge that was connected between two vertices.
+* **Removal(Edge)**: Deletes an edge that was connected between two vertices.
   * O(|V|).
 
 # Use Cases
@@ -38,7 +38,7 @@ A graph would not be as good as a hash table or dictionary when needing to store
 myGraph = Graph()
 ~~~
 
-* **insert**:
+* **add**:
 
 ~~~
 myGraph.addVertex()
@@ -48,7 +48,7 @@ myGraph.addVertex()
 myGraph.addEdge()
 ~~~
 
-* **delete**:
+* **remove**:
 
 ~~~
 myGraph.removeVertex()
