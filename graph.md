@@ -32,34 +32,17 @@ A graph would not be as good as a hash table or dictionary when needing to store
 
 # Examples
 
-* **creation**:
-
 ~~~
 myGraph = Graph()
+myGraph.addVertex(3)
+myGraph.addVertex(58)
+myGraph.addEdge(3,58)
+myGraph.removeVertex(3)
+myGraph.getVertices()
 ~~~
 
-* **add**:
+[PREV PAGE](avltree.md)
 
-~~~
-myGraph.addVertex()
-~~~
-
-~~~
-myGraph.addEdge()
-~~~
-
-* **remove**:
-
-~~~
-myGraph.removeVertex()
-~~~
-
-~~~
-myGraph.removeEdge()
-~~~
-
-[PREV PAGE](hashtable.md)
-
-[NEXT PAGE](binaryheap.md)
+[NEXT PAGE](binaryhe
 
 (c) 2018 Michael Fagan. All rights reserved.
