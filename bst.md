@@ -29,8 +29,6 @@ A binary search tree isn't useful in some circumstances when needing to store ma
 
 # Examples
 
-* **creation**:
-
 ~~~
 bst = BinarySearchTree()
 print(bst[2])
