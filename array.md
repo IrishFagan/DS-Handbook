@@ -34,34 +34,12 @@ An array is not useful when having to manage lots of values by insertiion and de
 
 # Example
 
-* **creation**:
-
 ~~~
-Array()
-~~~
-
-* **retrieve/access/read**:
-
-~~~
-print(item)
-~~~
-
-* **search**:
-
-~~~
-search(item)
-~~~
-
-* **insert**:
-
-~~~
-insert(place,item)
-~~~
-
-* **delete**:
-
-~~~
-remove(item)
+MyArray()
+insert(38,dog)
+search(dog)
+print(dog)
+remove(dog)
 ~~~
 
 [NEXT PAGE](stack.md)
