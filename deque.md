@@ -26,29 +26,11 @@ A deque is not as good as a list if you were wanting to consistently access mult
 
 # Examples
 
-* **creation**:
-
 ~~~
 d = Deque()
-~~~
-
-* **enqueue**:
-
-~~~
 d.addRear(30)
-~~~
-
-~~~
 d.addFront(84420)
-~~~
-
-* **dequeue**:
-
-~~~
 d.removeRear()
-~~~
-
-~~~
 d.removeFront()
 ~~~
 
