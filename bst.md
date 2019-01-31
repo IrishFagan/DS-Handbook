@@ -33,29 +33,9 @@ A binary search tree isn't useful in some circumstances when needing to store ma
 
 ~~~
 bst = BinarySearchTree()
-~~~
-
-* **access**:
-
-~~~
 print(bst[2])
-~~~
-
-* **search**:
-
-~~~
 "dog" in bst
-~~~
-
-* **insert**:
-
-~~~
 bst[41] = "dog"
-~~~
-
-* **delete**:
-
-~~~
 bst.remove(41)
 ~~~
 
