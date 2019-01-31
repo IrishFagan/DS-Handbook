@@ -25,21 +25,9 @@ A queue is useful when you need to regulate information being distributed. Queue
 A queue would not be as good as a list, since values in the middle of the structure can't be accessed. Only data that is dequeued can be accessed.
 # Examples
 
-* **creation**:
-
 ~~~
 myQ = Queue()
-~~~
-
-* **enqueue**:
-
-~~~
 myQ.enqueue(80000)
-~~~
-
-* **dequeue**:
-
-~~~
 myQ.dequeue
 ~~~
 
