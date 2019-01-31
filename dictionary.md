@@ -36,29 +36,9 @@ A dictionary or hash table would not be as a good as a linked list when needing 
 
 ~~~
 myDictionary = {'Billy':5411231234,'Dog':'Bark'}
-~~~
-
-* **get**:
-
-~~~
 myDictionary.get(Billy)
-~~~
-
-* **search**:
-
-~~~
 myDictionary[Dog]
-~~~
-
-* **insert**:
-
-~~~
 myDictionary['Cool'] = 'Dogs'
-~~~
-
-* **delete**:
-
-~~~
 del myDictionary[Cool]
 ~~~
 
