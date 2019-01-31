@@ -31,27 +31,10 @@ It is not as good as storing hundreds of values that might need to be accessed a
 
 # Example
 
-* **creation**:
-
 ~~~
-Stack()
-~~~
-
-* **push**:
-
-~~~
+MyStack()
 push(item)
-~~~
-
-* **pop**:
-
-~~~
 pop()
-~~~
-
-* **peek**:
-
-~~~
 peek()
 ~~~
 
