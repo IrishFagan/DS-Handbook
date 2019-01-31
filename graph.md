@@ -43,6 +43,6 @@ myGraph.getVertices()
 
 [PREV PAGE](avltree.md)
 
-[NEXT PAGE](binaryhe
+[NEXT PAGE](binaryheap.md)
 
 (c) 2018 Michael Fagan. All rights reserved.
