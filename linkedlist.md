@@ -35,10 +35,12 @@ A linked list is not as good as a BST or AVL Tree would be when having to access
 
 # Examples
 
+~~~
 list = UnorderedList()
 list.search(3)
 list.add(3)
 list.remove(3)
+~~~
 
 [PREV PAGE](stack.md)
 
