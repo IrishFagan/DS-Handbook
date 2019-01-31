@@ -26,21 +26,9 @@ A tuple is not as good as any mutable structure when needing to modify values on
 
 # Examples
 
-* **creation**:
-
 ~~~
 myTuple = (2,"cat",34)
-~~~
-
-* **access**:
-
-~~~
 print(myTuple[0])
-~~~
-
-* **search**:
-
-~~~
 34 in myTuple
 ~~~
 
