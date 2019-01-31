@@ -28,36 +28,12 @@ A Binary Heap is useful when needing to sort thousands of values because of the 
 A Binary Heap is not as good as a Deque when needing to shift less important items around to multiple data structures.
 # Examples
 
-* **creation**:
-
 ~~~
 BH = BinaryHeap()
-~~~
-
-* **search**:
-
-~~~
 BH.findMin()
-~~~
-
-~~~
 BH.findMax()
-~~~
-
-* **insert**:
-
-~~~
 BH.insert(69)
-~~~
-
-* **delete**:
-
-~~~
 BH.delMin()
-~~~
-
-~~~
-BH.delMax()
 ~~~
 
 [PREV PAGE](graph.md)
