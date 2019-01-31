@@ -32,33 +32,11 @@ A set isn't useful when trying to to manage duplicate numerical values, since th
 
 # Examples
 
-* **creation**:
-
 ~~~
 mySet = {3,"dog",340000}
-~~~
-
-* **access**:
-
-~~~
 print(mySet[2])
-~~~
-
-* **search**:
-
-~~~
 5 in mySet
-~~~
-
-* **insert**:
-
-~~~
 mySet.add("froggg")
-~~~
-
-* **delete**:
-
-~~~
 mySet.remove(5)
 ~~~
 
