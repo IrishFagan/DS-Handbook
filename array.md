@@ -35,11 +35,9 @@ An array is not useful when having to manage lots of values by insertiion and de
 # Example
 
 ~~~
-a = Array()
-a.insert(38,dog)
-a.search(dog)
-a.print(dog)
-a.remove(dog)
+float array[3] = {43,3,10048.42}
+array[2] = 7
+printf(array[2])
 ~~~
 
 [NEXT PAGE](stack.md)
