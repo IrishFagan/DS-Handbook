@@ -40,6 +40,6 @@ AVL.remove(43)
 
 [PREV PAGE](bst.md)
 
-[NEXT PAGE](hashtable.md)
+[NEXT PAGE](graph.md)
 
 (c) 2018 Michael Fagan. All rights reserved.
