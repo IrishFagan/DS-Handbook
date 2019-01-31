@@ -32,10 +32,10 @@ It is not as good as storing hundreds of values that might need to be accessed a
 # Example
 
 ~~~
-MyStack()
-push(item)
-pop()
-peek()
+myStack()
+myStack.push(34)
+myStack.pop()
+myStack.peek()
 ~~~
 
 [PREV PAGE](array.md)
