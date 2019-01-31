@@ -32,22 +32,10 @@ An AVL Tree is not as good as a stack or queue when it comes to inserting or del
 
 # Examples
 
-* **creation**:
-
 ~~~
 AVL = b_BST()
-~~~
-
-* **insert**:
-
-~~~
-AVL.insert(4)
-~~~
-
-* **delete**:
-
-~~~
-AVL.remove(5)
+AVL.insert(43)
+AVL.remove(43)
 ~~~
 
 [PREV PAGE](bst.md)
