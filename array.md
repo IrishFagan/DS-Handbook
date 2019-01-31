@@ -35,11 +35,11 @@ An array is not useful when having to manage lots of values by insertiion and de
 # Example
 
 ~~~
-MyArray()
-insert(38,dog)
-search(dog)
-print(dog)
-remove(dog)
+a = Array()
+a.insert(38,dog)
+a.search(dog)
+a.print(dog)
+a.remove(dog)
 ~~~
 
 [NEXT PAGE](stack.md)
