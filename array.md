@@ -30,38 +30,16 @@ An array supports the following operations:
 
 An array is useful when simply needing to place a large amount of variables of the same data type into a structure. We can then retrieve these values with constant time(O(1)), which is more efficient than most other data structures.
 
-It is not as good as a queue when it comes to managing places in a queue. A queue's operations are much more efficient than an array would be.
+An array is not useful when having to manage lots of values by insertiion and deletion.
 
 # Example
 
-* **creation**:
-
 ~~~
-Array()
-~~~
-
-* **retrieve/access/read**:
-
-~~~
-print(x)
+float array[3] = {43,3,10048.42}
+array[2] = 7
+printf(array[2])
 ~~~
 
-* **search**:
-
-~~~
-search(x)
-~~~
-
-* **insert**:
-
-~~~
-insert(place,x)
-~~~
-
-* **delete**:
-
-~~~
-remove(x)
-~~~
+[NEXT PAGE](stack.md)
 
 (c) 2018 Michael Fagan. All rights reserved.

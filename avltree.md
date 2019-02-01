@@ -1,14 +1,12 @@
 # AVL Tree
 
-An AVL Tree is similar in structure to a Binary Search Tree in the way that it is organized. It is self sorting and can only have a difference of one level between a node and it's children's subtrees.
+An AVL Tree is a tree that self balances, and therefore won't ever degrade into a linked list like a binary tree. This allows for all operations to be O(log(n)) all the time.
 
 # In Memory
 
 In memory, an AVL Tree looks like this:
 
-![Image of AVL Tree in Memory](images/avltree_memory.png)
-
-Description
+![Image of AVL Tree in Memory](images/avltree.jpg)
 
 # Operations
 
@@ -33,3 +31,15 @@ An AVL Tree is useful when you would like to store values in a tree without havi
 An AVL Tree is not as good as a stack or queue when it comes to inserting or deleting items. Regardless of how efficient both O(1) and O(log(n)) are, insertion and deletion from a stack and queue are both best at O(1).
 
 # Examples
+
+~~~
+AVL = b_BST()
+AVL.insert(43)
+AVL.remove(43)
+~~~
+
+[PREV PAGE](bst.md)
+
+[NEXT PAGE](graph.md)
+
+(c) 2018 Michael Fagan. All rights reserved.

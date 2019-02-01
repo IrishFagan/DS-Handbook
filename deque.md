@@ -6,36 +6,34 @@ A deque is basically a queue that can have values inserted or removed from both 
 
 In memory, a deque looks like this:
 
-![Image of Deque in Memory](images/set_memory.jpg)
-
-Description
+![Image of Deque in Memory](images/deque_memory.jpg)
 
 # Operations
 
 A Deque supports the following operations:
 
-* **Access**: Used to access a specified value in the tree
-  * O(n), linear time.
-
-* **Search**: Used to see if there is a specified value in the deque.
-  * O(n), linear time.
-
-* **Insertion(Rear)**: Used to queue an item to the rear of a deque
-  * O(n), linear time. To queue an item to the rear end of a deque, all values in the deque must first be shifted, which is an O(n) operation. Overall, this makes queuing into the rear an O(n) operation.
+* **Enqueue**: Used to queue an item to either the front or end of a deque
+  * O(1), constant time. Because of the pointers pointing to both the front and end of the deque, enqueuing is always a constant operation.
   
-* **Insertion(Front)**: Uses a stack pointer to simply queue an item on the end of the deque
-  * O(1), constant time. Thanks to the stack pointer, we can queue items to the front of the deque with a simple O(1) operation.
-
-* **Deletion(Rear)**: Used to dequeue an item from the end of a deque
-  * O(n), linear time. In order to complete a delete operation from the rear of a deque, we must first dequeue the value and then copy and shift all of the values in the deque over. This is why this operation is O(n), unlike dequeuing from the front of the deque.
-
-* **Deletion(Front)**: Used to dequeue an item from the front of a deque
-  * O(1), constant time. Because of a stack pointer constantly pointing to the front of the deque, this simple operation is only O(1). Items do not need to be shifted like when inserting or dequeuing an item from the rear of a deque.
-
+* **Dequeue**: Used to dequeue an item from either the front or end of a deque
+  * O(1), constant time. Because of the pointers pointing to both the front and the rear of the deque, dequeuing is always a constant operation.
+  
 # Use Cases
 
 A deque is useful when managing a queue that could cause a bottleneck. Implementation of multiple deques instead could allow for the re-insertion of values into a different deque if there happened to be a bottleneck.
 
-A deque is not as good as a list if you were needing constant access to thousands of values.
+A deque is not as good as a list if you were wanting to consistently access multiple values from a structure. You can only access whichever value is dequeud from either the front or end of the deque.
 
 # Examples
+
+~~~
+d = Deque()
+d.addRear(30)
+d.addFront(84420)
+d.removeRear()
+d.removeFront()
+~~~
+
+[PREV PAGE](queue.md)
+
+(c) 2018 Michael Fagan. All rights reserved.
